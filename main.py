@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-URL = "https://github.com/marcopeix/MachineLearningModelDeploymentwithStreamlit/blob/master/12_dashboard_capstone/data/quarterly_canada_population.csv"
+URL = "https://raw.githubusercontent.com/AsimJalwana/StreamlitDeployment/main/Data/quarterly_canada_population.csv"
 
 df = pd.read_csv(URL, dtype={'Quarter': str,
                              'Canada': np.int32,
